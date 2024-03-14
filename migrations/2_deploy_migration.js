@@ -1,4 +1,4 @@
-var HelloWorld = artifacts.require("HelloWorld");
+let conditionals = artifacts.require("Conditionals");
 module.exports = function(deployer) {
-  deployer.deploy(HelloWorld);
+  deployer.deploy(conditionals);
 }

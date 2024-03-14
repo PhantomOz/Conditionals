@@ -1,7 +1,9 @@
-# Hello World! in Solidity
+# Conditionals MetaCrafter Task
 
+## Overview
+A simple smart contract that implements the require(), assert() and revert() statements.
 
-## Install
+## Prequisite
 
 1. Install [Node.js](https://nodejs.org)
 
@@ -14,30 +16,9 @@
    ```
 
 
-## Initialize
+## Local Setup & Initialization
 
-1. Initialize Truffle in your project folder
-
-   ```bash
-   truffle init
-   ```
-
-   After initialization, you will find two folders called `contracts` and `migrations`. Contracts go in the `contracts` folder while contract deployment settings go in `migrations`.
-
-2. The "Hello World!" contract
-
-   This is an example of a "Hello World!" contract in Solidity. 
-   "HelloWorld.sol" in `contracts` contains the following code:
-
-   ```solidity
-   // SPDX-License-Identifier: MIT
-   // compiler version must be greater than or equal to 0.8.17 and less than 0.9.0
-   pragma solidity ^0.8.17;
-   
-   contract HelloWorld {
-       string public greet = "Hello World!";
-   }   
-   ```
+1. Clone Repository
 
 3. Prepare the migration
 
@@ -69,7 +50,7 @@
    In the interactive Truffle console, run the following commands:
 
    ```javascript
-   let instance = await HelloWorld.deployed()
+   let instance = await Conditionals.deployed()
    instance.greet()
    ```
 
