@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
@@ -10,9 +9,10 @@ contract Conditionals {
         return _a - _b;
     }
 
-    function multiplyValue(uint256 _a, uint256 _b) public pure{
+    function multipleOfHundred(uint256 _a, uint256 _b) public pure returns(uint256){
         uint256 value = _a * _b;
         assert(value == 100);
+        return value;
     }
 
     function setNumber(uint256 _num) public {
